@@ -92,8 +92,8 @@ export default function MedicamenteList({ medicamente }: MedicamenteListProps) {
                         onChange={handleItemsPerPageChange}
                     >
                         <MenuItem value={6}>6</MenuItem>
-                        <MenuItem value={10}>10</MenuItem>
-                        <MenuItem value={20}>20</MenuItem>
+                        <MenuItem value={12}>12</MenuItem>
+                        <MenuItem value={24}>24</MenuItem>
                     </Select>
                 </FormControl>
             </Box>
