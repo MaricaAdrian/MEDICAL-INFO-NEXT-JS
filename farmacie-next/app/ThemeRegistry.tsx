@@ -13,11 +13,17 @@ const theme = createTheme({
 });
 
 export default function ThemeRegistry({ children }: { children: React.ReactNode }) {
+    const [mounted, setMounted] = React.useState(false);
+
+    React.useEffect(() => {
+        setMounted(true);
+    }, []);
+
     return (
         <ThemeProvider theme={theme}>
             {/* CssBaseline normalizează stilurile */}
             <CssBaseline />
-            {children}
+            {mounted ? children : <div style={{ visibility: 'hidden' }}>{children}</div>}
         </ThemeProvider>
     );
 }
