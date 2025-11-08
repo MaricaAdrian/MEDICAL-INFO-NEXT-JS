@@ -1,0 +1,102 @@
+[
+    {
+        "id": "nurofen-forte-400mg",
+        "denumire_completa": "Nurofen Forte 400mg, 12 comprimate filmate",
+        "producator": "Reckitt Benckiser",
+        "pret": 25.50,
+        "disponibilitate": true,
+        "data_expirare": "2026-10-31",
+        "prescriptie": false,
+        "descriere": "Nurofen Forte 400 mg comprimate filmate calmează rapid și eficient durerea de cap, durerea de dinți, durerea menstruală, reduce febra și inflamația."
+    },
+    {
+        "id": "paracetamol-sinus-500mg",
+        "denumire_completa": "Paracetamol Sinus 500mg, 24 comprimate",
+        "producator": "Zentiva",
+        "pret": 18.90,
+        "disponibilitate": true,
+        "data_expirare": "2025-08-15",
+        "prescriptie": false,
+        "descriere": "Paracetamol Sinus este indicat pentru tratamentul simptomatic al durerilor de intensitate uşoară-moderată (de exemplu dureri de cap, inclusiv cele de tip migrenă, dureri de dinţi) și pentru tratamentul simptomatic al febrei."
+    },
+    {
+        "id": "augmentin-1g",
+        "denumire_completa": "Augmentin 1g, 14 comprimate filmate",
+        "producator": "GlaxoSmithKline",
+        "pret": 42.00,
+        "disponibilitate": false,
+        "data_expirare": "2025-01-20",
+        "prescriptie": true,
+        "descriere": "Augmentin este un antibiotic utilizat la adulți și copii pentru a trata anumite infecții bacteriene. Acesta conține două medicamente diferite numite amoxicilină și acid clavulanic."
+    },
+    {
+        "id": "aspenter-75mg",
+        "denumire_completa": "Aspenter 75mg, 30 comprimate gastrorezistente",
+        "producator": "Terapia",
+        "pret": 12.30,
+        "disponibilitate": true,
+        "data_expirare": "2027-03-01",
+        "prescriptie": false,
+        "descriere": "Aspenter 75 mg este utilizat pentru prevenirea formării cheagurilor de sânge, în special la pacienții cu risc cardiovascular crescut."
+    },
+    {
+        "id": "ibuprofen-200mg",
+        "denumire_completa": "Ibuprofen 200mg, 20 comprimate filmate",
+        "producator": "Zentiva",
+        "pret": 10.80,
+        "disponibilitate": true,
+        "data_expirare": "2026-06-30",
+        "prescriptie": false,
+        "descriere": "Ibuprofen este indicat pentru calmarea durerilor ușoare până la moderate, cum ar fi durerile de cap, durerile dentare, menstruale și durerile musculare."
+    },
+    {
+        "id": "omeprazol-20mg",
+        "denumire_completa": "Omeprazol 20mg, 28 capsule gastrorezistente",
+        "producator": "Sandoz",
+        "pret": 22.70,
+        "disponibilitate": true,
+        "data_expirare": "2027-01-10",
+        "prescriptie": false,
+        "descriere": "Omeprazol reduce producția de acid gastric și este utilizat în tratamentul arsurilor gastrice, ulcerelor și refluxului gastroesofagian."
+    },
+    {
+        "id": "ketonal-50mg",
+        "denumire_completa": "Ketonal 50mg, 20 capsule moi",
+        "producator": "Lek",
+        "pret": 28.40,
+        "disponibilitate": true,
+        "data_expirare": "2026-12-12",
+        "prescriptie": false,
+        "descriere": "Ketonal este un antiinflamator nesteroidian utilizat pentru calmarea durerilor musculare, articulare sau postoperatorii."
+    },
+    {
+        "id": "azitrox-500mg",
+        "denumire_completa": "Azitrox 500mg, 3 comprimate filmate",
+        "producator": "Zentiva",
+        "pret": 34.90,
+        "disponibilitate": false,
+        "data_expirare": "2025-04-25",
+        "prescriptie": true,
+        "descriere": "Azitrox conține azitromicină și este utilizat pentru tratamentul infecțiilor respiratorii, cutanate și ale tractului urinar."
+    },
+    {
+        "id": "vitamina-c-1000mg",
+        "denumire_completa": "Vitamina C 1000mg, 20 comprimate efervescente",
+        "producator": "Walmark",
+        "pret": 19.50,
+        "disponibilitate": true,
+        "data_expirare": "2027-09-18",
+        "prescriptie": false,
+        "descriere": "Vitamina C contribuie la funcționarea normală a sistemului imunitar și la protejarea celulelor împotriva stresului oxidativ."
+    },
+    {
+        "id": "no-spa-40mg",
+        "denumire_completa": "No-Spa 40mg, 24 comprimate",
+        "producator": "Sanofi",
+        "pret": 16.20,
+        "disponibilitate": true,
+        "data_expirare": "2026-11-30",
+        "prescriptie": false,
+        "descriere": "No-Spa este utilizat pentru ameliorarea durerilor abdominale, crampele musculare și colicile cauzate de contracțiile musculaturii netede."
+    }
+]
