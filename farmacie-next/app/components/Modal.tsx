@@ -43,12 +43,20 @@ export function Modal({ children }: { children: React.ReactNode }) {
                 maxWidth="md"
                 fullWidth
             >
-                <Box sx={{ position: 'absolute', top: 8, right: 8, display: 'flex', gap: 1 }}>
+                <Box sx={{
+                    position: 'absolute',
+                    top: 8,
+                    right: 8,
+                    display: 'flex',
+                    gap: 1,
+                    zIndex: 1
+                }}>
                     <IconButton
                         aria-label="copy link"
                         onClick={handleCopyLink}
                         sx={{ color: (theme) => theme.palette.grey[500] }}
                         title="Copiază link"
+                        size="large"
                     >
                         <ShareIcon />
                     </IconButton>

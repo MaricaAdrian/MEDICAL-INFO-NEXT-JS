@@ -1,5 +1,6 @@
 'use client';
 import * as React from 'react';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -13,17 +14,13 @@ const theme = createTheme({
 });
 
 export default function ThemeRegistry({ children }: { children: React.ReactNode }) {
-    const [mounted, setMounted] = React.useState(false);
-
-    React.useEffect(() => {
-        setMounted(true);
-    }, []);
-
     return (
-        <ThemeProvider theme={theme}>
-            {/* CssBaseline normalizează stilurile */}
-            <CssBaseline />
-            {mounted ? children : <div style={{ visibility: 'hidden' }}>{children}</div>}
-        </ThemeProvider>
+        <AppRouterCacheProvider>
+            <ThemeProvider theme={theme}>
+                {/* CssBaseline normalizează stilurile */}
+                <CssBaseline />
+                {children}
+            </ThemeProvider>
+        </AppRouterCacheProvider>
     );
 }
